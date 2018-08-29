@@ -1,0 +1,55 @@
+.TH pass-extension-set 1 "2018 August 29" "Version 1.0.0" "User Commands"
+
+.SH NAME
+pass-extension-ste - a password-store extension to set key/value pair in a password file
+
+.SH SYNOPSIS
+.B pass
+set
+[
+.I pass-name
+]
+[
+key
+]
+[
+value
+]
+
+.SH DESCRIPTION
+
+.BR pass(1)
+proposes a format to store meta data in the password file.
+The password is stored in the first line followed by data like the URL, username and other meta data in the following lines.
+.B pass-extension-set
+is an extension for the
+.BR pass(1)
+that allows users to set key/value pairs of the additional data
+
+.SH COMMANDS
+.TP
+\fBset\fP \fIpass-name\fP key value
+.br
+Set or update the value of a given key
+.TP
+
+.SH SEE ALSO
+.BR pass (1)
+
+.SH AUTHOR
+palortoff
+
+
+.SH HOME
+.I https://github.com/palortoff/pass-extension-set
+
+
+.SH REPORTING BUGS
+.I https://github.com/palortoff/pass-extension-set/issues
+
+.SH LICENSE
+Copyright \(co 2018 palortoff.
+.PP
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+.br
+This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law.
